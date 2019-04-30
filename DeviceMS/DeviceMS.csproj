@@ -111,15 +111,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="about.html" />
+    <Content Include="BackupDeviceAdd.aspx" />
+    <Content Include="BackupDeviceDel.aspx" />
+    <Content Include="BackupDeviceDetails.aspx" />
+    <Content Include="BackupDeviceManage.aspx" />
+    <Content Include="center.html" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="desk.aspx" />
+    <Content Include="DeviceStockWarning.aspx" />
+    <Content Include="DeviceTypeManage.aspx" />
+    <Content Include="down.html" />
+    <Content Include="images\ADD.gif" />
+    <Content Include="images\bg.gif" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Default.aspx" />
-    <Content Include="favicon.ico" />
+    <Content Include="images\delete.gif" />
+    <Content Include="images\dl.gif" />
+    <Content Include="images\edit.gif" />
+    <Content Include="images\favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -130,9 +143,59 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\PublishProfiles\DeviceMS - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="images\help.gif" />
+    <Content Include="images\left.gif" />
+    <Content Include="images\list.gif" />
+    <Content Include="images\login_03.gif" />
+    <Content Include="images\login_05.gif" />
+    <Content Include="images\login_06.gif" />
+    <Content Include="images\login_07.gif" />
+    <Content Include="images\login_08.gif" />
+    <Content Include="images\main_03.gif" />
+    <Content Include="images\main_04.gif" />
+    <Content Include="images\main_05.gif" />
+    <Content Include="images\main_07.gif" />
+    <Content Include="images\main_09.gif" />
+    <Content Include="images\main_11.gif" />
+    <Content Include="images\main_12.gif" />
+    <Content Include="images\main_14.gif" />
+    <Content Include="images\main_16.gif" />
+    <Content Include="images\main_18.gif" />
+    <Content Include="images\main_20.gif" />
+    <Content Include="images\main_21.gif" />
+    <Content Include="images\main_22.gif" />
+    <Content Include="images\main_29.gif" />
+    <Content Include="images\main_30.gif" />
+    <Content Include="images\main_31.gif" />
+    <Content Include="images\main_32.gif" />
+    <Content Include="images\main_34.gif" />
+    <Content Include="images\main_36.gif" />
+    <Content Include="images\main_37.gif" />
+    <Content Include="images\main_39.gif" />
+    <Content Include="images\main_40.gif" />
+    <Content Include="images\main_41.gif" />
+    <Content Include="images\main_45.gif" />
+    <Content Include="images\main_47.gif" />
+    <Content Include="images\main_48.gif" />
+    <Content Include="images\main_51.gif" />
+    <Content Include="images\main_52.gif" />
+    <Content Include="images\main_55.gif" />
+    <Content Include="images\main_55_1.gif" />
+    <Content Include="images\main_58.gif" />
+    <Content Include="images\main_59.gif" />
+    <Content Include="images\main_61.gif" />
+    <Content Include="images\main_62.gif" />
+    <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="main.aspx" />
+    <Content Include="menu.html" />
+    <Content Include="middel.html" />
+    <Content Include="right.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Calendar.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -159,53 +222,189 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Site.Master" />
+    <Content Include="seltime.aspx" />
+    <Content Include="style.css" />
+    <Content Include="top.aspx" />
+    <Content Include="UselessDeviceAdd.aspx" />
+    <Content Include="UselessDeviceDel.aspx" />
+    <Content Include="UselessDeviceDetails.aspx" />
+    <Content Include="UselessDeviceManage.aspx" />
+    <Content Include="UsingDeviceAdd.aspx" />
+    <Content Include="UsingDeviceDel.aspx" />
+    <Content Include="UsingDeviceDetails.aspx" />
+    <Content Include="UsingDeviceManage.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
-    <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
+    <Content Include="images\Bundle.config" />
+    <Content Include="images\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="BackupDeviceAdd.aspx.cs">
+      <DependentUpon>BackupDeviceAdd.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="BackupDeviceAdd.aspx.designer.cs">
+      <DependentUpon>BackupDeviceAdd.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="BackupDeviceDAO.cs" />
+    <Compile Include="BackupDeviceDel.aspx.cs">
+      <DependentUpon>BackupDeviceDel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="BackupDeviceDel.aspx.designer.cs">
+      <DependentUpon>BackupDeviceDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BackupDeviceDetails.aspx.cs">
+      <DependentUpon>BackupDeviceDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BackupDeviceDetails.aspx.designer.cs">
+      <DependentUpon>BackupDeviceDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BackupDeviceManage.aspx.cs">
+      <DependentUpon>BackupDeviceManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BackupDeviceManage.aspx.designer.cs">
+      <DependentUpon>BackupDeviceManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BackupDeviceModel.cs" />
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Constant.cs" />
+    <Compile Include="DataBase.cs" />
+    <Compile Include="desk.aspx.cs">
+      <DependentUpon>desk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desk.aspx.designer.cs">
+      <DependentUpon>desk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceStockWarning.aspx.cs">
+      <DependentUpon>DeviceStockWarning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeviceStockWarning.aspx.designer.cs">
+      <DependentUpon>DeviceStockWarning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceTypeDAO.cs" />
+    <Compile Include="DeviceTypeManage.aspx.cs">
+      <DependentUpon>DeviceTypeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeviceTypeManage.aspx.designer.cs">
+      <DependentUpon>DeviceTypeManage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site.Master.cs">
-      <DependentUpon>Site.Master</DependentUpon>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site.Master.designer.cs">
-      <DependentUpon>Site.Master</DependentUpon>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
+    <Compile Include="main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="seltime.aspx.cs">
+      <DependentUpon>seltime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seltime.aspx.designer.cs">
+      <DependentUpon>seltime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SqlString.cs" />
+    <Compile Include="top.aspx.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="top.aspx.designer.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UselessDeviceAdd.aspx.cs">
+      <DependentUpon>UselessDeviceAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UselessDeviceAdd.aspx.designer.cs">
+      <DependentUpon>UselessDeviceAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UselessDeviceDAO.cs" />
+    <Compile Include="UselessDeviceDel.aspx.cs">
+      <DependentUpon>UselessDeviceDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UselessDeviceDel.aspx.designer.cs">
+      <DependentUpon>UselessDeviceDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UselessDeviceDetails.aspx.cs">
+      <DependentUpon>UselessDeviceDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UselessDeviceDetails.aspx.designer.cs">
+      <DependentUpon>UselessDeviceDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UselessDeviceManage.aspx.cs">
+      <DependentUpon>UselessDeviceManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UselessDeviceManage.aspx.designer.cs">
+      <DependentUpon>UselessDeviceManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UselessDeviceModel.cs" />
+    <Compile Include="UserDAO.cs" />
+    <Compile Include="UserModel.cs" />
+    <Compile Include="UsingDeviceAdd.aspx.cs">
+      <DependentUpon>UsingDeviceAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsingDeviceAdd.aspx.designer.cs">
+      <DependentUpon>UsingDeviceAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsingDeviceDAO.cs" />
+    <Compile Include="UsingDeviceDel.aspx.cs">
+      <DependentUpon>UsingDeviceDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsingDeviceDel.aspx.designer.cs">
+      <DependentUpon>UsingDeviceDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsingDeviceDetails.aspx.cs">
+      <DependentUpon>UsingDeviceDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsingDeviceDetails.aspx.designer.cs">
+      <DependentUpon>UsingDeviceDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsingDeviceManage.aspx.cs">
+      <DependentUpon>UsingDeviceManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsingDeviceManage.aspx.designer.cs">
+      <DependentUpon>UsingDeviceManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsingDeviceModel.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
